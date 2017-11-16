@@ -28,7 +28,7 @@ public class BookRestController {
     private Logger logger=LoggerFactory.getLogger(BookRestController.class);
 
 
-    //Note: The aa @Named("bookService") is not required in this example (as there only instance of BookService around)
+    //Note: The aa @Named("bookService") is not required in this example (hjhjas there only instance of BookService around)
     @Inject
     public BookRestController(@Named("bookService") BookService bookService )
     {
