@@ -24,7 +24,7 @@ public class TestRestService extends BaseWebApplicationContextTests {
         servlet.service(request, response);
         String result = response.getContentAsString();
         Assert.assertEquals(200, response.getStatus());
-        String expectedXML = "<book><id>1</id><author>William Smith</author><title>Advanced Java</title></book>";
+        String expectedXML = "<book><id>1</id><author>William Smith Arprit</author><title>Advanced Java</title></book>";
         Assert.assertEquals(expectedXML, result);
     }
 
