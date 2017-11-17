@@ -39,7 +39,7 @@ public class BookRestController {
     @RequestMapping(value = "/{id}",method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public Book getBook(@PathVariable("id") Long id) {
-        logger.debug("Provider has received request to get person with id: " + id);
+        logger.debug("Provider has received request to get person nnwith id: " + id);
         return bookService.getBook(id);
     }
 
